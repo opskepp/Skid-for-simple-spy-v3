@@ -46,7 +46,7 @@ local http = game:GetService("HttpService")
 
 local getcustomasset = getsynasset or getcustomasset
 
-local Highlight = (isfile and readfile and isfile("Highlight.lua") and loadstring(readfile("Highlight.lua"))()) or loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/Highlight.lua"))()
+local Highlight = (isfile and readfile and isfile("Highlight.lua") and loadstring(readfile("Highlight.lua"))()) or loadstring(game:HttpGet("https://raw.githubusercontent.com/opskepp/Skid-for-simple-spy-v3/main/Highlight.lua"))()
 
 ---- GENERATED (kinda sorta mostly) BY GUI to LUA ----
 
